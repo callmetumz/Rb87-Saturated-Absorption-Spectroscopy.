@@ -67,6 +67,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit, least_squares
 from scipy.signal import find_peaks, savgol_filter
+try:
+    from IPython.display import display   # nicer tables in a notebook
+except ImportError:
+    display = print                        # plain Python: just print the tables
 
 # ### 0.2 The data files
 # 
