@@ -1,0 +1,4 @@
+figures/
+*_table.csv
+.ipynb_checkpoints/
+__pycache__/
